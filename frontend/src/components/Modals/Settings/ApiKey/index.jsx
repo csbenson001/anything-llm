@@ -64,7 +64,7 @@ export default function ApiKey() {
         <div className="relative bg-white rounded-lg shadow dark:bg-stone-700">
           <div className="flex items-start justify-between px-6 py-4">
             <p className="text-gray-800 dark:text-stone-200 text-base ">
-              Generate an API Key for your AnythingLLM instance.
+              Generate an API Key for your LegalEagle instance.
             </p>
           </div>
           <div className="px-1 md:px-8 pb-10 ">
@@ -81,7 +81,7 @@ export default function ApiKey() {
         <div className="relative bg-white rounded-lg shadow dark:bg-stone-700">
           <div className="flex items-start justify-between px-6 py-4">
             <p className="text-gray-800 dark:text-stone-200 text-base ">
-              Generate an API Key for your AnythingLLM instance.
+              Generate an API Key for your LegalEagle instance.
             </p>
           </div>
           <div className="md:px-8 pb-10 ">
@@ -117,7 +117,7 @@ export default function ApiKey() {
       <div className="relative bg-white rounded-lg shadow dark:bg-stone-700">
         <div className="flex flex-col items-start justify-between px-6 py-4">
           <p className="text-gray-800 dark:text-stone-200 text-base ">
-            Use this API key for interacting with your AnythingLLM instance
+            Use this API key for interacting with your LegalEagle instance
             programmatically.
           </p>
           <a

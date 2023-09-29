@@ -1,6 +1,6 @@
 # How to use Dockerized Anything LLM
 
-Use the Dockerized version of AnythingLLM for a much faster and complete startup of AnythingLLM.
+Use the Dockerized version of LegalEagle for a much faster and complete startup of LegalEagle.
 
 ## Requirements
 - Install [Docker](https://www.docker.com/) on your computer or machine.
@@ -36,7 +36,7 @@ Your docker host will show the image as online once the build process is complet
 ## ⚠️ Vector DB support ⚠️
 Out of the box, all vector databases are supported. Any vector databases requiring special configuration are listed below.
 
-### Using local ChromaDB with Dockerized AnythingLLM
+### Using local ChromaDB with Dockerized LegalEagle
 - Ensure in your `./docker/.env` file that you have
 ```
 #./docker/.env

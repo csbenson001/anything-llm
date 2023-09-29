@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         'black-900': '#141414',
+        'blue-200': '#0284c7'
       },
     },
   },

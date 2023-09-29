@@ -3,5 +3,7 @@
     "openai",
     "Qdrant",
     "Weaviate"
-  ]
+  ],
+  "editor.tabCompletion": "on",
+  "diffEditor.codeLens": true
 }

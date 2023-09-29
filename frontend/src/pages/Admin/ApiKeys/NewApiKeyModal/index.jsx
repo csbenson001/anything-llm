@@ -71,7 +71,7 @@ export default function NewApiKeyModal() {
                 )}
                 <p className="text-gray-800 dark:text-slate-200 text-xs md:text-sm">
                   Once created the API key can be used to programmatically
-                  access and configure this AnythingLLM instance.
+                  access and configure this LegalEagle instance.
                 </p>
                 <a
                   href={paths.apiDocs()}

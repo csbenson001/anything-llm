@@ -1,4 +1,4 @@
-# AnythingLLM Screenshots
+# LegalEagle Screenshots
 
 ### Homescreen
 ![Homescreen](./home.png)

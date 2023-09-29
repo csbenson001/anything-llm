@@ -36,7 +36,7 @@ export default function Sidebar() {
           {/* Header Information */}
           <div className="flex w-full items-center justify-between">
             <p className="text-xl font-base text-slate-600 dark:text-slate-200">
-              AnythingLLM
+            LegalEagle
             </p>
             <div className="flex gap-x-2 items-center text-slate-500">
               <button className="transition-all duration-300 p-2 rounded-full bg-slate-200 text-slate-400 dark:bg-stone-800 hover:bg-slate-800 hover:text-slate-200 dark:hover:text-slate-200">
@@ -87,7 +87,7 @@ export default function Sidebar() {
                 >
                   <Cpu className="h-4 w-4" />
                   <p className="text-slate-800 dark:text-slate-200 text-xs leading-loose font-semibold">
-                    Managed cloud hosting
+                    Managed cloud hostingsss
                   </p>
                 </a>
                 <a
@@ -105,25 +105,7 @@ export default function Sidebar() {
               {/* Footer */}
               <div className="flex items-end justify-between mt-2">
                 <div className="flex gap-x-1 items-center">
-                  <a
-                    href={paths.github()}
-                    className="transition-all duration-300 p-2 rounded-full bg-slate-200 text-slate-400 dark:bg-slate-800 hover:bg-slate-800 hover:text-slate-200 dark:hover:text-slate-200"
-                  >
-                    <GitHub className="h-4 w-4 " />
-                  </a>
-                  <a
-                    href={paths.docs()}
-                    className="transition-all duration-300 p-2 rounded-full bg-slate-200 text-slate-400 dark:bg-slate-800 hover:bg-slate-800 hover:text-slate-200 dark:hover:text-slate-200"
-                  >
-                    <BookOpen className="h-4 w-4 " />
-                  </a>
                 </div>
-                <a
-                  href={paths.mailToMintplex()}
-                  className="transition-all duration-300 text-xs text-slate-200 dark:text-slate-600 hover:text-blue-600 dark:hover:text-blue-400"
-                >
-                  @MintplexLabs
-                </a>
               </div>
             </div>
           </div>

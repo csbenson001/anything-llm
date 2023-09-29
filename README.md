@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://useanything.com"><img src="https://github.com/Mintplex-Labs/anything-llm/blob/master/images/wordmark.png?raw=true" alt="AnythingLLM logo"></a>
+  <a href="https://useanything.com"><img src="https://github.com/Mintplex-Labs/anything-llm/blob/master/images/wordmark.png?raw=true" alt="LegalEagle logo"></a>
 </p>
 
 <p align="center">
-    <b>AnythingLLM: A business-compliant document chatbot</b>. <br />
+    <b>LegalEagle: A business-compliant document chatbot</b>. <br />
     A hyper-efficient and open-source enterprise-ready document chatbot solution for all.
 </p>
 
@@ -34,13 +34,13 @@ A full-stack application that enables you to turn any document, resource, or pie
 
 
 ### Product Overview
-AnythingLLM aims to be a full-stack application where you can use commercial off-the-shelf LLMs or popular open source LLMs and vectorDB solutions.
+LegalEagle aims to be a full-stack application where you can use commercial off-the-shelf LLMs or popular open source LLMs and vectorDB solutions.
 
 Anything LLM is a full-stack product that you can run locally as well as host remotely and be able to chat intelligently with any documents you provide it.
 
-AnythingLLM divides your documents into objects called `workspaces`. A Workspace functions a lot like a thread, but with the addition of containerization of your documents. Workspaces can share documents, but they do not talk to each other so you can keep your context for each workspace clean.
+LegalEagle divides your documents into objects called `workspaces`. A Workspace functions a lot like a thread, but with the addition of containerization of your documents. Workspaces can share documents, but they do not talk to each other so you can keep your context for each workspace clean.
 
-Some cool features of AnythingLLM
+Some cool features of LegalEagle
 - Multi-user instance support and oversight
 - Atomically manage documents in your vector database from a simple UI
 - Two chat modes `conversation` and `query`. Conversation retains previous questions and amendments. Query is simple QA against your documents
@@ -62,7 +62,7 @@ This monorepo consists of three main sections:
 - `python` 3.9+ for running scripts in `collector/`.
 - access to an LLM like `GPT-3.5`, `GPT-4`.
 - (optional) a vector database like Pinecone, qDrant, Weaviate, or Chroma*.
-*AnythingLLM by default uses a built-in vector db called LanceDB.
+*LegalEagle by default uses a built-in vector db called LanceDB.
 
 ## How to get started (Docker - simple setup)
 [Get up and running in minutes with Docker](./docker/HOW_TO_USE_DOCKER.md)
@@ -96,10 +96,10 @@ Next, you will need some content to embed. This could be a Youtube Channel, Medi
 - yee haw let's merge
 
 ## Telemetry
-AnythingLLM by Mintplex Labs Inc contains a telemetry feature that collects anonymous usage information.
+LegalEagle by Mintplex Labs Inc contains a telemetry feature that collects anonymous usage information.
 
 ### Why?
-We use this information to help us understand how AnythingLLM is used, to help us prioritize work on new features and bug fixes, and to help us improve AnythingLLM's performance and stability.
+We use this information to help us understand how LegalEagle is used, to help us prioritize work on new features and bug fixes, and to help us improve LegalEagle's performance and stability.
 
 ### Opting out
 Set `DISABLE_TELEMETRY` in your server or docker .env settings to "true" to opt out of telemetry.

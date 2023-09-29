@@ -43,10 +43,10 @@ export default function MultiUserMode({ hideModal = noop }) {
       <div className="relative bg-white rounded-lg shadow dark:bg-stone-700">
         <div className="flex items-start justify-between px-6 py-4">
           <p className="text-gray-800 dark:text-stone-200 text-base ">
-            Update your AnythingLLM instance to support multiple concurrent
+            Update your LegalEagle instance to support multiple concurrent
             users with their own workspaces. As the admin you can view all
             workspaces and add people into workspaces as well. This change is
-            not reversible and will permanently alter your AnythingLLM
+            not reversible and will permanently alter your LegalEagle
             installation.
           </p>
         </div>

@@ -43,7 +43,7 @@ export default function VectorDBSelection({
       <div className="relative bg-white rounded-lg shadow dark:bg-stone-700">
         <div className="flex items-start justify-between px-6 py-4">
           <p className="text-gray-800 dark:text-stone-200 text-base ">
-            These are the credentials and settings for how your AnythingLLM
+            These are the credentials and settings for how your LegalEagle
             instance will function. Its important these keys are current and
             correct.
           </p>
@@ -103,7 +103,7 @@ export default function VectorDBSelection({
                   name="LanceDB"
                   value="lancedb"
                   link="lancedb.com"
-                  description="100% local vector DB that runs on the same instance as AnythingLLM."
+                  description="100% local vector DB that runs on the same instance as LegalEagle."
                   checked={vectorDB === "lancedb"}
                   image={LanceDbLogo}
                   onClick={updateVectorChoice}

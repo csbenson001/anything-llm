@@ -19,7 +19,7 @@ function apiDocumentEndpoints(app) {
     async (request, response) => {
       /* 
     #swagger.tags = ['Documents']
-    #swagger.description = 'Upload a new file to AnythingLLM to be parsed and prepared for embedding.'
+    #swagger.description = 'Upload a new file to LegalEagle to be parsed and prepared for embedding.'
 
     #swagger.requestBody = {
       description: 'File to be uploaded.',

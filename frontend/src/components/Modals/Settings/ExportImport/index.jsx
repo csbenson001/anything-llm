@@ -11,7 +11,7 @@ export default function ExportOrImportData({ hideModal = noop }) {
       <div className="relative bg-white rounded-lg shadow dark:bg-stone-700">
         <div className="flex flex-col items-start justify-between px-6 py-4">
           <p className="text-gray-800 dark:text-stone-200 text-base ">
-            Have multiple AnythingLLM instances or simply want to backup or
+            Have multiple LegalEagle instances or simply want to backup or
             re-import data from another instance? You can do so here.
             <br />
             <i>
@@ -111,7 +111,7 @@ function ExportData() {
       className="w-full flex  justify-center px-6 py-4 border border-gray-200 rounded-lg dark:border-gray-600 hover:bg-slate-200 group"
     >
       <p className="text-gray-800 dark:text-stone-200 group-hover:text-gray-800 text-lg">
-        Export AnythingLLM data
+        Export LegalEagle data
       </p>
     </button>
   );
@@ -205,10 +205,10 @@ function ImportData() {
         className="w-full flex flex-col gap-y-1 items-center px-6 py-4 border border-gray-200 rounded-lg dark:border-gray-600 hover:bg-slate-200 group"
       >
         <p className="text-gray-800 dark:text-stone-200 group-hover:text-gray-800 text-lg">
-          Import AnythingLLM data
+          Import LegalEagle data
         </p>
         <p className="text-gray-800 dark:text-stone-200 group-hover:text-gray-800 text-xs italic">
-          this must be an export from an AnythingLLM instance.
+          this must be an export from an LegalEagle instance.
         </p>
       </button>
     </>

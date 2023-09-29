@@ -101,7 +101,7 @@ export default function Appearance() {
       <div className="relative bg-white rounded-lg shadow dark:bg-stone-700">
         <div className="flex items-start justify-between px-6 py-4">
           <p className="text-gray-800 dark:text-stone-200 text-base ">
-            Customize the appearance settings of AnythingLLM instance.
+            Customize the appearance settings of LegalEagle instance.
           </p>
         </div>
 

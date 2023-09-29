@@ -43,7 +43,7 @@ export default function PasswordProtection({
       <div className="relative bg-white rounded-lg shadow dark:bg-stone-700">
         <div className="flex items-start justify-between px-6 py-4">
           <p className="text-gray-800 dark:text-stone-200 text-base ">
-            Protect your AnythingLLM instance with a password. If you forget
+            Protect your LegalEagle instance with a password. If you forget
             this there is no recovery method so ensure you save this password.
           </p>
         </div>
