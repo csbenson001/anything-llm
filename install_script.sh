@@ -41,7 +41,7 @@ cd /home/azureuser/anything-llm/docker
 # start create env, we will come back here later
 cat >> .env << "END"
 SERVER_PORT=3001
-OPEN_AI_KEY=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
+OPEN_AI_KEY=sk-UDVWn2IlRvSLjgOmiEGh**********
 OPEN_MODEL_PREF='gpt-3.5-turbo'
 CACHE_VECTORS="true"
 VECTOR_DB="pinecone"
